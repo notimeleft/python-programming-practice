@@ -1,0 +1,8 @@
+kadane's algorithm 
+
+-useful for finding local maximum of values in a subarray!
+
+-only useful for a list containing negative values. Otherwise the max would always be the entire array of values
+
+-the algorithm goes something like: max here = sum of [0....i-1]+[i]. Determine if max here is bigger with or without the addition of [i]. This is a local maximum. Then, keep track of final max by comparing final max with all local maximums. Return final max.  
+
