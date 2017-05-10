@@ -21,7 +21,7 @@ class Solution(object):
         """
         
         #build a dict of (pattern, word) kv entries. While building the dict, return false if errors in the pattern occur. 
-
+        #dammit! accidentally committed too soon.    
 
         words = str.split()
         if len(pattern)==len(words):
